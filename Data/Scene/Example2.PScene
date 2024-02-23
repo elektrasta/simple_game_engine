@@ -1,0 +1,56 @@
+Scene: Untitled Scene
+Entities:
+  - EntityID: 16541641
+    ComponentTag:
+      Tag: Green Square
+    ComponentTransform:
+      Translation: [1.79999995, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ComponentSprite:
+      Color: [0, 1, 0, 1]
+  - EntityID: 16541641
+    ComponentTag:
+      Tag: Red Square
+    ComponentTransform:
+      Translation: [0, 2.29999995, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.5999999, 3.20000005, 1]
+    ComponentSprite:
+      Color: [1, 0, 0, 1]
+  - EntityID: 16541641
+    ComponentTag:
+      Tag: Camera A
+    ComponentTransform:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ComponentCamera:
+      Camera:
+        ProjectionType: 1
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.00999999978
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      bPrimary: true
+      bFixedAspectRatio: false
+  - EntityID: 16541641
+    ComponentTag:
+      Tag: Camera B
+    ComponentTransform:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ComponentCamera:
+      Camera:
+        ProjectionType: 1
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.00999999978
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      bPrimary: false
+      bFixedAspectRatio: false
